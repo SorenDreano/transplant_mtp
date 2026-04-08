@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ### In-place modification
 
 ```bash
-uv run python script.py \
+uv run python main.py \
   --source Qwen/Qwen3.5-0.8B \
   --target your-finetuned-model
 ```
@@ -35,7 +35,7 @@ This writes directly into the Hugging Face cache for the target model.
 ### Using an output directory
 
 ```bash
-uv run python script.py \
+uv run python main.py \
   --source Qwen/Qwen3.5-0.8B \
   --target your-finetuned-model \
   --output ./patched-model
