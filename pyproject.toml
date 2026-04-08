@@ -1,0 +1,20 @@
+[project]
+name = "transplant-mtp"
+version = "0.1.0"
+description = "CLI tool to copy MTP weights from a base model to a fine-tuned one"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=1.9.2",
+    "numpy>=2.4.4",
+    "safetensors>=0.7.0",
+    "torch>=2.11.0",
+]
+authors = [{name = "Sören Dréano"}]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
